@@ -1,0 +1,67 @@
+.contact__us{
+    padding: 15px 10px;
+    text-align: center;
+    background: black;
+    border-top: 5px solid white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.5fr;
+    background-image: url("../images/kirim_pesan.svg");
+}
+
+.form{
+    margin-top: 20px;
+}
+
+.form__input{
+    width: 400px;
+    height: 30px;
+    margin-right: 20px;
+    vertical-align: middle;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.form__button{
+    margin-top: 60%;
+    width: 150px;
+    height: 30px;
+    vertical-align: middle;
+    border-radius: 15px;
+    background-color: #02B04F;
+    border: 1px solid rgb(0, 0, 0);
+    color: #fff;
+}
+
+.hero__image{
+    width: 100%;
+}
+
+.hero-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+}
+
+.text__box1{
+    padding: 30px 70px 60px;
+}
+
+.text__header{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.text__detail{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    margin-top: 10px ;
+}

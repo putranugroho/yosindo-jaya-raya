@@ -1,0 +1,75 @@
+.footer{
+    padding: 25px 0px;
+    background: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.company__address{
+    text-align: left;
+    padding: 20px;
+    color: #fff;
+    border-top: 5px solid white;
+}
+.company__contact{
+    text-align: left;
+    padding: 20px;
+    color: #fff;
+    border-top: 5px solid white;
+}
+
+.address__top{
+    font-size: 20px;
+}
+
+.company__address > b {
+    color: #fff;
+}
+
+.company__address > div {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: 20px 0 5px;
+}
+
+.company__address > .address__detail{
+    font-weight: 400;
+}
+
+.sosmed__icon{
+    text-align: center;
+    padding: 20px;
+    border-top: 5px solid white;
+}
+
+.sosmed__icon > p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.sosmed__wrapper {
+    position: relative;
+    margin: 30px 0 45px;
+  }
+  
+  .sosmed__images{
+    display: flex;
+    place-items: center;
+  }
+
+  .sosmed__image{
+      width: 40px;
+      height: 40px;
+      margin: 0px 20px;
+  }
+
+  @media screen and (max-width: 960px) {
+    .company__address{
+        font-size: 14px;
+    }
+
+    .address__header{
+        font-size: 16px;
+    }
+ 
+  }

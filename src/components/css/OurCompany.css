@@ -1,0 +1,75 @@
+.our__company{
+    padding: 15px 10px;
+    text-align: center;
+    background: black;
+    border-top: 5px solid white;
+}
+
+.our__company.company1 {
+    background-image: url("../images/company1.svg");
+}
+
+.our__company.company2{
+    background-image: url("../images/company2.svg");
+}
+
+.company_item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.company__box1{
+    padding: 30px 60px 0px;
+}
+
+.company__header{
+    text-align: left;
+    margin-left: 10%;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.company__detail{
+    text-align: left;
+    place-self: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 10px ;
+}
+
+.company__text{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.company__button{
+    width: 150px;
+    height: 30px;
+    vertical-align: middle;
+    border-radius: 5px;
+    background-color: #006CC0;
+    border: 1px solid rgb(0, 0, 0);
+    color: #fff;
+    float: left;
+    margin-top: 30px;
+}
+
+.company__box2{
+    align-self: center;
+}
+
+.company__logo{
+    display: flex;
+}
+
+.company__image{
+    margin: 0px 20px;
+}

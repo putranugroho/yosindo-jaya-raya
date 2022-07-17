@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/sinn7492/public_html/
+    - /bin/cp -R public $DEPLOYPATH
+    - /bin/cp -R src $DEPLOYPATH
+    - /bin/cp package.json $DEPLOYPATH
+    - /bin/cp yarn.lock $DEPLOYPATH
